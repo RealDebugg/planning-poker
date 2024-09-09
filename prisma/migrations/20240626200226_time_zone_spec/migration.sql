@@ -1,0 +1,2 @@
+-- AlterTable
+ALTER TABLE "Rooms" ALTER COLUMN "expiresAt" SET DEFAULT CURRENT_TIMESTAMP AT TIME ZONE 'UTC' + interval '24 hours';
